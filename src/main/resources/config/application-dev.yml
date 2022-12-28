@@ -32,8 +32,12 @@ spring:
       indent-output: true
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      # uri: mongodb://localhost:27017
       database: KeycloakIntegration
+      host: localhost
+      port: 27017
+      username: Anjali
+      password: Anjali
   messages:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   thymeleaf:
